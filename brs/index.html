@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Black Rock Shooter in parallax</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.jparallax.js"></script>
+<script>
+<!--
+
+jQuery(document).ready(function(){
+	jQuery('#parallax').jparallax();
+});
+
+//-->
+</script>
+<style>
+html, body {
+	margin:0;
+	padding:0;
+	background-color:#000;
+	overflow:hidden;
+}
+
+#parallax {
+	position:absolute;
+	background-color:#333;
+	overflow:hidden;
+	width:1600px;
+	height:900px;
+	margin-left:-800px;
+	left:50%;
+	margin-top:-450px;
+	top:50%;
+}
+
+#parallax div {
+	background-position:center;
+	background-repeat:no-repeat;
+	overflow:visible;
+}
+
+</style>
+</head>
+<body>
+
+<div id="parallax">
+	<div style="width:1400px; height:1289px; position:absolute; top:0px; left:0px;">
+    <img src="img/layer_1.jpg" style="margin-left:-1000px; left:50%; position:absolute;" />
+    </div>
+    <div style="width:1370px; height:1200px; position:absolute; top:0px; left:0px;">
+    <img src="img/layer_2.png" style="margin-left:-685px; left:50%; margin-top:-460px; top:50%; position:absolute;" />    
+    </div>
+    <div style="width:1280px; height:1150px; position:absolute; top:0px; left:0px;"> 
+    <img src="img/layer_3.png" style="margin-left:-521px; left:50%; margin-top:-530px; top:50%; position:absolute;" />   
+    </div>
+    <div style="width:1170px; height:1130px; position:absolute; top:0px; left:0px;">  
+    <img src="img/layer_4.png" style="margin-left:-200px; left:50%; margin-top:-316px; top:50%; position:absolute;" />  
+    </div>
+    <div style="width:1128px; height:1200px; position:absolute; top:0px; left:0px;"> 
+    <img src="img/layer_5.png" style="margin-left:-564px; left:50%; margin-top:-622px; top:50%; position:absolute;" />   
+    </div>
+</div>
+
+</body>
+</html>
